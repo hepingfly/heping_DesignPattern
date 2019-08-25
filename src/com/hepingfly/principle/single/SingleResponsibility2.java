@@ -15,7 +15,7 @@ public class SingleResponsibility2 {
 
 /**
  * 这种设计方式符合单一职责原则
- * 但是这种方式开销太大
+ * 但是这种方式开销太大，并且修改完之后，客户端也要跟着修改（比如再扩展几个类，那么客户端也需要 new 对应的类）
  */
 class RoadVehicle {
     public void run(String vehicle) {
