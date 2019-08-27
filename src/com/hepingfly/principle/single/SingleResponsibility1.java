@@ -1,7 +1,7 @@
 package com.hepingfly.principle.single;
 
 /**
- *
+ * 单一职责原则
  */
 public class SingleResponsibility1 {
     public static void main(String[] args) {
